@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fruits_hub</string>
+
+    <string name="facebook_app_id">1011057168537221</string>
+
+    <!-- This must match your Facebook Login protocol scheme setup -->
+    <string name="fb_login_protocol_scheme">fb1011057168537221</string>
+
+    <!-- Recommended: remove client token if you don't need advanced features.
+         flutter_facebook_auth primarily needs app id + protocol scheme. -->
+</resources>
+
