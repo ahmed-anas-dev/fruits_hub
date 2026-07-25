@@ -12,7 +12,7 @@ import 'package:fruits_hub/core/utils/backend_endpoint.dart';
 import 'package:fruits_hub/features/auth/data/models/user_model.dart';
 import 'package:fruits_hub/features/auth/domain/entity/user_entity.dart';
 import 'package:fruits_hub/features/auth/domain/repo/auth_repo.dart';
-
+//
 class AuthRepoImpl extends AuthRepo {
   final DataServices dataServices;
   final FirebaseAuthService firebaseAuthService;

@@ -10,7 +10,7 @@ import 'package:fruits_hub/features/splash/presentation/views/splash_views.dart'
 
 Route<dynamic> OnGenerateRoute(RouteSettings settings) {
   switch (settings.name) {
-    case LoginViews.routeName:
+    case LoginViews.routeName:;
       return MaterialPageRoute(builder: (context) => LoginViews());
     case CheckOutView.routeName:
       return MaterialPageRoute(
@@ -31,4 +31,4 @@ Route<dynamic> OnGenerateRoute(RouteSettings settings) {
     default:
       return MaterialPageRoute(builder: (context) => const Scaffold());
   }
-}//
+}
