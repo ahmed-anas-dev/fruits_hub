@@ -39,5 +39,3 @@ class FruitsHub extends StatelessWidget {
     );
   }
 }
-
-
